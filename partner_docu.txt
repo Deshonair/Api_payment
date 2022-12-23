@@ -1,0 +1,12 @@
+
+
+truncate table payment_pan_original
+alter table payment_pan_original add student_Active_Date varchar(255)
+create table payment_pan_original like branch_pan
+
+3rd party API integration:
+Payment Api to allow student payment at brach level
+ 2 functions, first is calling  student details verification
+Second: payment submission at braNch
+
+
